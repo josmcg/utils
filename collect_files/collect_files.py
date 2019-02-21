@@ -37,7 +37,7 @@ def collect(parent, out, nfiles):
 @click.command()
 @click.argument("parent")
 @click.option("--out", default="out", help="entrypoint of copied directory")
-@click.option("--n", default=3, help="number of files to copy from each subdirectory")
+@click.option("--nfiles", default=3, help="number of files to copy from each subdirectory")
 def main(parent, out, nfiles):
     collect(parent,out, nfiles)
 
