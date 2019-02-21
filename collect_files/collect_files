@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+ls
+# just a wrapper
+python collect_files.py $1 $2 $3

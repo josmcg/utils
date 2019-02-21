@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Remake a large directory of training data
 into a small testing set
