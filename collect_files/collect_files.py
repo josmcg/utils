@@ -14,6 +14,7 @@ import click
 
 def copy_files(in_dir, out_dir, nfiles):
     files = os.listdir(in_dir)
+    files.sort()
     firstn = files[:nfiles]
     for f in firstn:
         if os.path.isdir(join(in_dir,f)):
